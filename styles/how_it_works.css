@@ -54,3 +54,146 @@ nav a:hover {
 #nav-bar > a{
     color: var(--btncolor)
 }
+
+.shadow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    background-color: var(--bgcolor);
+    box-shadow: 0 0 1px 100px var(--gray);
+    filter: blur(100px);
+}
+
+.shadow.right {
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.shadow.left {
+    left: 0;
+    transform: translateX(-50%); 
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.side-left {
+    width: 50%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px; 
+}
+
+p, li {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.side-right {
+    width:35%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    width: 300%;
+    animation: slider 8s infinite;
+}
+
+.slider img {
+    width: calc(100% / 3);
+    flex-shrink: 0;
+    height: 80vh;
+    aspect-ratio: 16 / 9;
+}
+
+@keyframes slider {
+    0%, 25% {
+        transform: translateX(0);
+    }
+
+    33%, 58% {
+        transform: translateX(-33.333%);
+    }
+
+    66%, 91% {
+        transform: translateX(-66.666%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0; 
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+.process {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.step {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--darkenblue);
+    box-shadow: 0 4px 8px var(--gray);
+    scroll-margin-top: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 25vh 0 10vh; 
+    border-top: 1px solid var(--darkenblue);
+    padding-top: 10px;
+}
+
+.copy_right {
+    font-size: 0.8rem;
+    margin-top: 30px;
+}
+
+.connection {
+    display: flex;
+    gap: 50px;
+}
+
+.connection p {
+    color: var(--btncolor);
+    margin-bottom: 10px;
+}
+
+.connection ul{
+    list-style-type: none;
+}
+
+.connection li {
+    margin-bottom: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--gray); 
+}
+
+li a:hover {
+    color: var(--fontcolor);
+}

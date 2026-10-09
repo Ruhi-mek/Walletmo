@@ -54,3 +54,113 @@ nav a:hover {
 #nav-bar > a{
     color: var(--btncolor)
 }
+
+.shadow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    background-color: var(--bgcolor);
+    box-shadow: 0 0 1px 100px var(--gray);
+    filter: blur(100px);
+}
+
+.shadow.right {
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.shadow.left {
+    left: 0;
+    transform: translateX(-50%); 
+}
+
+main {
+    margin-top: 30vh;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px; 
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0; 
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p, li {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.hero {
+    height: 70vh;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.m-v {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.m-v section, .values article {
+    padding: 10px;
+    background-color: var(--darkenblue);
+    border-radius: 10px;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 25vh 0 10vh; 
+    border-top: 1px solid var(--darkenblue);
+    padding-top: 10px;
+}
+
+.copy_right {
+    font-size: 0.8rem;
+    margin-top: 30px;
+}
+
+.connection {
+    display: flex;
+    gap: 50px;
+}
+
+.connection p {
+    color: var(--btncolor);
+    margin-bottom: 10px;
+}
+
+.connection ul{
+    list-style-type: none;
+}
+
+.connection li {
+    margin-bottom: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--gray); 
+}
+
+li a:hover {
+    color: var(--fontcolor);
+}
