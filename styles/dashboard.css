@@ -1,0 +1,300 @@
+:root {
+    --bgcolor: #08070e;
+    --fontcolor: #fff;
+    --btncolor: #008DE4;
+    --btnshadow: #07243c;
+    --darkenblue: #2b2a33;
+    --catcolor: #f50288;
+    --gray: #6b6a70; 
+    --green: #42ea42; 
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bgcolor);
+    color: var(--fontcolor);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px; 
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0; 
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p, li {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+a {
+   font-size: 1.2rem;
+   text-decoration: none; 
+}
+
+.sub-text {
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+    color: var(--gray);
+}
+
+.green-text, .red-text {
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin: 0;
+}
+
+.green-text {
+    color: var(--green); 
+}
+
+.red-text {
+    color: #f00;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100vh;
+    padding: 0 2%;
+    box-shadow: 2px 0 5px var(--darkenblue);
+}
+
+.side-bar > div {
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.border {
+    border-bottom: 2px solid var(--darkenblue);
+}
+
+.nav-link {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav-link a {
+    color: var(--fontcolor);
+}
+
+.nav-link a:hover {
+    color: var(--gray);
+}
+
+.home a:hover {
+    color: var(--catcolor);
+}
+
+main, footer {
+    margin-left: 30%;
+}
+
+.content, .closing {
+    width: 80%;
+    margin: auto;
+}
+
+.content > section {
+    margin-top: 40px;
+}
+
+#overview > div {
+   margin-bottom: 40px; 
+}
+
+.btn {
+    background-color: var(--btnshadow);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.financial-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.financial-cards > div > i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.financial-cards > div, .expense-income, .recent-tansaction, .monthly-budget, .saving-goal, .insight-box {
+    border: 1px solid var(--darkenblue);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.month {
+    margin-top: 10px;
+}
+
+.expenses, .incomes, .credit {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: var(--darkenblue);
+    position: relative;
+}
+
+.expense, .income, .credit-value {
+    position: absolute;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.expense {
+    background-color: var(--btncolor);
+}
+
+.income {
+    background-color: var(--green);
+}
+
+.w-10 {
+    width: 10%
+} 
+
+.w-20 {
+    width: 20%
+} 
+
+.w-30 {
+    width: 30%
+} 
+
+.w-40 {
+    width: 40%
+} 
+
+.w-50 {
+    width: 50%
+} 
+
+.w-60 {
+    width: 60%
+} 
+
+.w-70 {
+    width: 70%
+} 
+
+.w-80 {
+    width: 80%
+} 
+
+.w-90 {
+    width: 90%
+} 
+
+.w-100 {
+    width: 100%
+} 
+
+.e-circle, .i-circle {
+    display: inline-block;
+    margin: 20px 10px 0 0;
+}
+
+.e-circle::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: var(--btncolor);
+    vertical-align: middle;
+}
+
+.i-circle::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: var(--green);
+    vertical-align: middle;
+}
+
+.money, .left-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    padding-bottom: 5px;
+}
+
+.left-content i, .left-content-plan i {
+    margin-right: 15px;
+    font-size: 2rem;
+}
+
+.food {
+    background-color: antiquewhite;
+}
+
+.trans {
+    background-color: #4ce5e5;
+}
+
+.enter {
+    background-color: yellowgreen;
+}
+
+.left-content-plan, .insight {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.save {
+    background-color: burlywood;
+}
+
+.insight i {
+    margin-right: 10px;
+}
+
+.closing {
+    text-align: center;
+    margin: 50px;
+}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walletmo</title>
+    <link rel="icon" href="../public/logoicon.svg">
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css>
+</head>
+<body>
+
+    <aside class="side-bar">
+        <div class="nav-text border">
+            <p class="no-margin">Walletmo</p>
+            <p class="sub-text">Your money, under control.</p>
+        </div>
+
+        <div class="nav-link border">
+            <p class="sub-text">MAIN MENU</p>
+            <a href="#overview"><i class="fa-solid fa-grip"></i> Overview</a>
+            <a href="#transactions"><i class="fa-solid fa-arrow-right-arrow-left"></i> Transactions</a>
+            <a href="#budgets"><i class="fa-solid fa-wallet"></i> Budgets</a>
+            <a href="#saving_goals"><i class="fa-solid fa-bullseye"></i> Saving Goals</a>
+            <a href="#insights"><i class="fa-solid fa-chart-line"></i> Insights</a>
+        </div>
+
+        <div class="home"><a href="../index.html"><i class="fa-solid fa-house icon"></i> Home</a></div>
+    </aside>
+
+
+    <main>
+        <div class="content">
+            <section id="overview">
+                <div class="wellcome">
+                    <h1>Good afternoon, Ru!</h1>
+                    <p>Here's your financial overview for October. Let's see how your money is doing this month.</p>
+                    <button class="btn">+ Add Transaction</button>
+                </div>
+
+                <div class="financial-cards">
+                    <div>
+                        <i class="fa-solid fa-wallet"></i>
+                        <p class="sub-text">Total Balance</p>
+                        <p>$4,250.00</p>
+                        <p class="green-text">+8.2% this month</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <p class="sub-text">Total Income</p>
+                        <p>$2,800.00</p>
+                        <p class="green-text">This month</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <p class="sub-text">Total Expenses</p>
+                        <p>$1,350.00</p>
+                        <p class="red-text">This month</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        <p class="sub-text">Total Savings</p>
+                        <p>$900.00</p>
+                        <p class="green-text">32% of monthly income</p>
+                    </div>
+                </div>
+
+                <div class="expense-income">
+                    <div class="top">
+                        <div class="top-left-text">
+                            <p>Income vs. Expenses</p>
+                            <p class="sub-text">Track how your money changes over time.</p>
+                        </div>
+                        <p class="sub-text">6 months</p>
+                    </div>
+
+                    <div class="month">
+                        <p class="sub-text">May</p>
+                        <div class="e-i">
+                            <div class="expenses">
+                                <div class="expense w-50"></div>
+                            </div>
+
+                            <div class="incomes">
+                                <div class="income w-70"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="month">
+                        <p class="sub-text">Jun</p>
+                        <div class="e-i">
+                            <div class="expenses">
+                                <div class="expense w-30"></div>
+                            </div>
+
+                            <div class="incomes">
+                                <div class="income w-90"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="month">
+                        <p class="sub-text">Jul</p>
+                        <div class="e-i">
+                            <div class="expenses">
+                                <div class="expense w-60"></div>
+                            </div>
+
+                            <div class="incomes">
+                                <div class="income w-40"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="month">
+                        <p class="sub-text">Aug</p>
+                        <div class="e-i">
+                            <div class="expenses">
+                                <div class="expense w-20"></div>
+                            </div>
+
+                            <div class="incomes">
+                                <div class="income w-80"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="month">
+                        <p class="sub-text">Sep</p>
+                        <div class="e-i">
+                            <div class="expenses">
+                                <div class="expense w-60"></div>
+                            </div>
+
+                            <div class="incomes">
+                                <div class="income w-90"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="month">
+                        <p class="sub-text">Oct</p>
+                        <div class="e-i">
+                            <div class="expenses">
+                                <div class="expense w-40"></div>
+                            </div>
+
+                            <div class="incomes">
+                                <div class="income w-50"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="e-circle">Expense</div>
+                    <div class="i-circle">Income</div>
+
+                </div>
+            </section>
+
+            <section id="transactions">
+                <h2>Transactions</h2>
+                <div class="recent-tansaction">
+                    <div class="top">
+                        <p>Recent Transactions</p>
+                        <p class="green-text">View all →</p>
+                    </div>
+
+                    <div class="money border">
+                        <div class="left-content">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+
+                            <div class="info">
+                                <p>Monthly Allowance</p>
+                                <p class="sub-text">Income · Oct 10</p>
+                            </div>
+                        </div>
+                        <p>+$800.00</p>
+                    </div>
+
+                    <div class="money border">
+                        <div class="left-content">
+                            <i class="fa-solid fa-bag-shopping"></i>
+
+                            <div class="info">
+                                <p>Shopping</p>
+                                <p class="sub-text">Food · Oct 09</p>
+                            </div>
+                        </div>
+                        <p>-$65.50</p>
+                    </div>
+
+                    <div class="money border">
+                        <div class="left-content">
+                            <i class="fa-solid fa-wifi"></i>
+
+                            <div class="info">
+                                <p>Internet Bill</p>
+                                <p class="sub-text">Utilities · Oct 08</p>
+                            </div>
+                        </div>
+                        <p>-$25.00</p>
+                    </div>
+
+                    <div class="money">
+                        <div class="left-content">
+                            <i class="fa-solid fa-mug-hot"></i>
+
+                            <div class="info">
+                                <p>Coffee Shop</p>
+                                <p class="sub-text">Food & Drinks · Oct 07</p>
+                            </div>
+                        </div>
+                        <p>-$12.00</p>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section id="budgets">
+                <h2>Budget</h2>
+
+                <div class="monthly-budget">
+                    <div class="top">
+                        <p>Monthly Budget</p>
+                        <p class="green-text">Manage →</p>
+                    </div>
+
+                    <div>
+                        <div class="top">
+                            <p>Food & Drinks</p>
+                            <p class="sub-text">$320 / $500</p>
+                        </div>
+                        <div class="credit">
+                            <div class="credit-value food w-70"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="top">
+                            <p>Transportation</p>
+                            <p class="sub-text">$120 / $200</p>
+                        </div>
+                        <div class="credit">
+                            <div class="credit-value trans w-60"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="top">
+                            <p>Entertainment</p>
+                            <p class="sub-text">$90 / $100</p>
+                        </div>
+                        <div class="credit">
+                            <div class="credit-value enter w-90 "></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="saving_goals">
+                <h2>Saving Goals</h2>
+
+                <div class="saving-goal">
+                    <div class="top">
+                        <p>Your Savings Goals</p>
+                        <p class="green-text">View all →</p>
+                    </div>
+
+                    <div class="plan">
+                        <div class="left-content-plan">
+                            <i class="fa-solid fa-laptop"></i>
+
+                            <div class="info">
+                                <p>New Laptop</p>
+                                <p class="sub-text">$600 saved of $1,000</p>
+                            </div>
+                        </div>
+
+                        <div class="credit">
+                            <div class="credit-value save w-60 "></div>
+                        </div>
+                    </div>
+
+                    <div class="plan">
+                        <div class="left-content-plan">
+                            <i class="fa-solid fa-plane"></i>
+
+                            <div class="info">
+                                <p>Dream Trip</p>
+                                <p class="sub-text">$300 saved of $750</p>
+                            </div>
+                        </div>
+                        <div class="credit">
+                            <div class="credit-value save w-40 "></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="insights">
+                <h2>Financial insights</h2>
+                <div class="insight-box">
+                    <div class="insight">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <p>Your Money Insight</p>
+                    </div>
+
+                    <p class="sub-text">You've spent 15% less on dining this month compared with last month. Keep building habits that support your savings goals!</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="closing">
+            <p class="copy_right sub-text">&#169 2026 Walletmo. Made for better money habits.</p>
+        </div>
+    </footer>
+</body>
+</html>
