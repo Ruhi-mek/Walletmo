@@ -22,6 +22,36 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem; 
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem; 
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+   font-size: 1.2rem;
+   text-decoration: none; 
+}
+
 #nav-bar {
     position: fixed;
     top: 0;
@@ -43,7 +73,6 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     color: var(--fontcolor);
 }
 
@@ -53,6 +82,10 @@ nav a:hover {
 
 #nav-bar > a{
     color: var(--btncolor)
+}
+
+#nav-bar > a:hover {
+    text-decoration: underline;
 }
 
 .shadow {
@@ -82,16 +115,6 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-h1 {
-    font-size: 4rem;
-    margin: 1rem;
-}
-
-.hero p{
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
 }
 
 .get_started {
@@ -132,14 +155,7 @@ h1 {
 }
 
 .content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
     color: var(--btncolor);
-}
-
-.content p{
-    font-size: 1.3rem;
-    line-height: 1.5rem;
 }
 
 .overview img {
@@ -169,22 +185,28 @@ footer {
 
 .connection p {
     color: var(--btncolor);
-    margin-bottom: 10px;
 }
 
 .connection ul{
     list-style-type: none;
 }
 
-.connection li {
-    margin-bottom: 5px;
-}
-
 li a{
-    text-decoration: none;
     color: var(--gray); 
 }
 
 li a:hover {
     color: var(--fontcolor);
+}
+
+footer * {
+    margin: 0;
+}
+
+footer h2 {
+    font-size: 1.5rem; 
+}
+
+footer p, footer li, footer a {
+    font-size: 1rem;
 }

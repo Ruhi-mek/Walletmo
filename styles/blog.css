@@ -22,6 +22,36 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem; 
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem; 
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+   font-size: 1.2rem;
+   text-decoration: none; 
+}
+
 #nav-bar {
     position: fixed;
     top: 0;
@@ -33,7 +63,6 @@ body {
     padding: 20px;
     background-color: var(--bgcolor);
     z-index: 1;
-    font-size: 1.2rem; 
     border-bottom: 1px solid var(--darkenblue);
 }
 
@@ -43,7 +72,6 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     color: var(--fontcolor);
 }
 
@@ -53,6 +81,10 @@ nav a:hover {
 
 #nav-bar > a{
     color: var(--btncolor)
+}
+
+#nav-bar > a:hover {
+    text-decoration: underline;
 }
 
 .shadow {
@@ -74,25 +106,6 @@ nav a:hover {
 .shadow.left {
     left: 0;
     transform: translateX(-50%); 
-}
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 20px; 
-}
-
-h2 {
-    font-size: 2rem;
-    margin: 20px 0; 
-}
-
-h3 {
-    font-size: 1.6rem;
-}
-
-p, li {
-    font-size: 1.3rem;
-    margin: 20px 0;
 }
 
 section {
@@ -212,22 +225,28 @@ footer {
 
 .connection p {
     color: var(--btncolor);
-    margin-bottom: 10px;
 }
 
 .connection ul{
     list-style-type: none;
 }
 
-.connection li {
-    margin-bottom: 5px;
-}
-
 li a{
-    text-decoration: none;
     color: var(--gray); 
 }
 
 li a:hover {
     color: var(--fontcolor);
+}
+
+footer * {
+    margin: 0;
+}
+
+footer h2 {
+    font-size: 1.5rem; 
+}
+
+footer p, footer li, footer a {
+    font-size: 1rem;
 }

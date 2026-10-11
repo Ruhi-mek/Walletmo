@@ -22,6 +22,36 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem; 
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem; 
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+   font-size: 1.2rem;
+   text-decoration: none; 
+}
+
 #nav-bar {
     position: fixed;
     top: 0;
@@ -53,6 +83,10 @@ nav a:hover {
 
 #nav-bar > a{
     color: var(--btncolor)
+}
+
+#nav-bar > a:hover {
+    text-decoration: underline;
 }
 
 .shadow {
@@ -196,4 +230,16 @@ li a{
 
 li a:hover {
     color: var(--fontcolor);
+}
+
+footer * {
+    margin: 0;
+}
+
+footer h2 {
+    font-size: 1.5rem; 
+}
+
+footer p, footer li, footer a {
+    font-size: 1rem;
 }
