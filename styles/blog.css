@@ -257,3 +257,52 @@ footer h2 {
 footer p, footer li, footer a {
     font-size: 1rem;
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+    nav {
+        gap: 5%;
+    }
+
+    .idea img {
+        width: 250px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    body {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 0.67em 0; 
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin: 0.83em 0; 
+    }
+
+    h3 {
+        font-size: 1.17rem;
+        margin: 1em 0;
+    }
+
+    p, li, a {
+        font-size: 1rem;
+        margin: 1em 0;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .idea img {
+        width: 150px;
+        object-fit: cover;
+    }
+    
+}
