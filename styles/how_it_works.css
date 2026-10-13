@@ -73,7 +73,6 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     color: var(--fontcolor);
 }
 
@@ -121,16 +120,6 @@ nav a:hover {
     width: 50%;
 }
 
-h1 {
-    font-size: 3rem;
-    margin-bottom: 20px; 
-}
-
-p, li {
-    font-size: 1.3rem;
-    margin: 20px 0;
-}
-
 .side-right {
     width:35%;
     overflow: hidden;
@@ -168,13 +157,7 @@ p, li {
 }
 
 h2 {
-    font-size: 2rem;
     text-align: center;
-    margin: 20px 0; 
-}
-
-h3 {
-    font-size: 1.6rem;
 }
 
 .process {
@@ -184,12 +167,20 @@ h3 {
     text-align: center;
 }
 
+.advantage {
+    margin-top: 30px;
+} 
+
 .step {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid var(--darkenblue);
-    box-shadow: 0 4px 8px var(--gray);
-    scroll-margin-top: 80px;
+}
+
+.step img {
+    width: 300px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
 }
 
 footer {
@@ -212,7 +203,6 @@ footer {
 
 .connection p {
     color: var(--btncolor);
-    margin-bottom: 10px;
 }
 
 .connection ul{
@@ -220,11 +210,10 @@ footer {
 }
 
 .connection li {
-    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 li a{
-    text-decoration: none;
     color: var(--gray); 
 }
 

@@ -67,6 +67,7 @@ a {
     padding: 20px;
     background-color: var(--bgcolor);
     z-index: 1;
+    font-size: 1.2rem;
     border-bottom: 1px solid var(--darkenblue);
 }
 
@@ -160,13 +161,14 @@ nav a:hover {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid var(--darkenblue);
-    box-shadow: 0 4px 8px var(--gray);
     scroll-margin-top: 80px;
+    text-align: center;
 }
 
 .features > section figure img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    aspect-ratio: 16/9;
+    object-fit:cover;
     margin: 10px 0;
     border-radius: 10px;
 }
@@ -215,6 +217,10 @@ footer {
 
 .connection ul{
     list-style-type: none;
+}
+
+.connection li {
+    margin-top: 5px;
 }
 
 li a{

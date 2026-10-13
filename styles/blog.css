@@ -62,6 +62,7 @@ a {
     width: 100%;
     padding: 20px;
     background-color: var(--bgcolor);
+    font-size: 1.2rem;
     z-index: 1;
     border-bottom: 1px solid var(--darkenblue);
 }
@@ -152,7 +153,8 @@ section {
     color: #fff; 
     transform: rotate(-45deg);
     z-index: 1;
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
+    cursor: not-allowed;
 }
 
 .learn {
@@ -230,6 +232,11 @@ footer {
 .connection ul{
     list-style-type: none;
 }
+
+.connection li {
+    margin-top: 5px;
+}
+
 
 li a{
     color: var(--gray); 

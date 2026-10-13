@@ -160,7 +160,6 @@ nav a:hover {
 
 .overview img {
     max-width: 40%;
-    height: auto;
     aspect-ratio: 4 / 3;
     border-radius: 50%;
 }
@@ -189,6 +188,10 @@ footer {
 
 .connection ul{
     list-style-type: none;
+}
+
+.connection li {
+    margin-top: 5px;
 }
 
 li a{

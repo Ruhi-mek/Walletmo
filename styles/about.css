@@ -62,6 +62,7 @@ a {
     width: 100%;
     padding: 20px;
     background-color: var(--bgcolor);
+    font-size: 1.2rem;
     z-index: 1; 
     border-bottom: 1px solid var(--darkenblue);
 }
@@ -72,7 +73,6 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     color: var(--fontcolor);
 }
 
@@ -127,7 +127,7 @@ section {
     gap: 20px;
 }
 
-.m-v section, .values article {
+.m-v section {
     padding: 10px;
     background-color: var(--darkenblue);
     border-radius: 10px;
@@ -137,6 +137,9 @@ section {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--darkenblue);
 }
 
 footer {
@@ -164,6 +167,11 @@ footer {
 .connection ul{
     list-style-type: none;
 }
+
+.connection li {
+    margin-top: 5px;
+}
+
 
 li a{
     color: var(--gray); 
