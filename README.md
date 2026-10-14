@@ -1,54 +1,84 @@
-# Walletmo
+# 💰 Walletmo — Personal Finance Web App
 
-# 💰 Walletmo — Personal Finance Dashboard
+Walletmo is a personal finance web design project built to make money management feel simple, organized, and accessible. It provides a clean interface for tracking income and expenses, managing budgets, setting savings goals, and viewing financial insights.
 
-Walletmo is a personal finance web design project created to make money management feel simple, organized, and accessible. It provides a clean interface for tracking income and expenses, managing budgets, setting savings goals, and viewing financial insights.
+This project is built with **HTML and CSS only** — no JavaScript or backend.
 
-This project focuses on building a modern, responsive user interface using only HTML and CSS.
+---
 
 ## ✨ Features
 
-- 🏠 **Dashboard Overview** — A clear overview of personal finances.
-- 💳 **Transactions** — A dedicated section for viewing income and expenses.
-- 📊 **Budget Management** — A layout for organizing monthly budgets.
-- 🎯 **Savings Goals** — A section for tracking savings targets.
-- 📈 **Financial Insights** — A visual layout for understanding spending habits.
-- 📱 **Responsive Design** — A layout designed to adapt to different screen sizes.
-- 🎨 **Clean UI** — A simple, modern design with an easy-to-navigate interface.
+- 🏠 **Home** — Hero section with tagline, app overview, and a Get Started call-to-action.
+- 📊 **Dashboard** — Overview of balance, income, expenses, savings goals, budgets, transactions, and financial insights. Includes a sidebar navigation and an income vs. expenses chart.
+- ⚡ **Features Page** — Highlights core app features: Smart Budgeting, Expense Tracking, Savings Goals, Financial Insights, and Credit Score tracking.
+- 🔄 **How It Works** — Step-by-step walkthrough with an auto-sliding image carousel and a 4-step process section.
+- ℹ️ **About** — Mission, vision, and core values of Walletmo.
+- 📝 **Blog** — Article cards with category tags, a category filter section, and a newsletter subscription form.
+- 📱 **Responsive Design** — Adapts to desktop, tablet, and mobile screen sizes across all pages.
+- 🎨 **Consistent Design System** — Shared color palette, typography scale, and component styles across all pages.
+- 🔗 **Active Nav Indicator** — The current page is highlighted in the navigation bar.
+- 🖼️ **Font Awesome Icons** — Used throughout for social links, dashboard stats, feature links, value cards, and checkmark lists.
+
+---
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
+- HTML5 (semantic markup)
+- CSS3 (Flexbox, Grid, custom properties, animations, media queries)
+- [Font Awesome 6](https://fontawesome.com/) (icon library via CDN)
+
+---
 
 ## 📂 Project Structure
 
-```text
+```
 Walletmo/
-├── index.html
+├── index.html                  ← Home page
+├── main.css                    ← Shared styles for index.html
 ├── pages/
+│   ├── dashboard.html
 │   ├── features.html
-│   ├── how-it-works.html
+│   ├── how_it_works.html
 │   ├── about.html
-│   ├── blog.html
-│   └── dashboard.html
-├── css/
-│   └── style.css
-├── images/
-│   └── ...
+│   └── blog.html
+├── styles/
+│   ├── dashboard.css
+│   ├── features.css
+│   ├── how_it_works.css
+│   ├── about.css
+│   └── blog.css
+├── public/
+│   ├── logoicon.svg
+│   ├── overview_img.jpg
+│   ├── budgeting.jpg
+│   ├── saving.jpg
+│   ├── spending.jpg
+│   ├── credit.jpg
+│   ├── insight.jpg
+│   ├── how_walletmo_works1.jpg
+│   ├── how_walletmo_works2.jpg
+│   ├── how_walletmo_works3.jpg
+│   ├── create account.jpg
+│   ├── track money.jpg
+│   ├── set goal.jpg
+│   ├── understand and improve.jpg
+│   ├── budget_blog.jpg
+│   ├── save_blog.jpg
+│   ├── money_blog.jpg
+│   ├── budget_rule_blog.jpg
+│   ├── spend_student_blog.jpg
+│   └── spend_blog.jpg
 └── README.md
 ```
 
-*Note: Adjust the folder structure above to match your actual project files.*
+---
 
 ## 🚀 Getting Started
-
-Follow these steps to run the project locally.
 
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/Ruhi-mek/Walletmo.git
    ```
 
 2. Open the project folder:
@@ -57,28 +87,34 @@ Follow these steps to run the project locally.
    cd Walletmo
    ```
 
-3. Open `index.html` in your browser, or use the **Live Server** extension in Visual Studio Code.
+3. Open `index.html` in your browser, or use the **Live Server** extension in VS Code for auto-reload.
+
+---
 
 ## 🎯 Project Goals
 
-- Practice semantic HTML and modern CSS.
-- Improve responsive web design skills.
-- Create a clean and user-friendly interface.
-- Practice organizing a multi-page website.
+- Practice semantic HTML5 and modern CSS3.
+- Build a multi-page website with a consistent design system.
+- Improve responsive web design skills across multiple breakpoints.
+- Create a polished, user-friendly UI without JavaScript.
 - Strengthen frontend development fundamentals.
+
+---
 
 ## ⚠️ Note
 
-Walletmo is currently a frontend design project built using HTML and CSS only. It does not include JavaScript, backend functionality, or a database. Features such as transaction tracking and budget calculations are presented as interface designs rather than functional financial tools.
+Walletmo is a **frontend design project** built with HTML and CSS only. It does not include JavaScript, backend functionality, or a real database. All data shown on the dashboard (balance, transactions, budget progress, etc.) is static and for design demonstration purposes only.
+
+---
 
 ## 👩‍💻 Author
 
-**Ruhama Mekonen**
-
+**Ruhama Mekonen**  
 Software Engineering Student | Aspiring Full-Stack Developer
 
 - GitHub: [@Ruhi-mek](https://github.com/Ruhi-mek)
 - LinkedIn: [Ruhama Mekonen](https://www.linkedin.com/in/ruhama-mekonen-79655a389/)
+- Twitter/X: [@RuhiMek](https://x.com/RuhiMek)
 
 ---
 
